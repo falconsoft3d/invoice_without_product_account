@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_account_partner_form_inherit">
+        <field name='name'>account.res.partner.form.inherit</field>
+        <field name='model'>res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name='type'>form</field>
+        <field name='arch' type='xml'>
+            <group name="accounting_entries" position="after">
+                <group string="Cuentas Auxiliares" name="without_product_entries" group="account.group_account_invoice">
+                    <field name="account_in_without_product_id"/>
+                    <field name="account_out_without_product_id"/>
+                </group>
+            </group>
+        </field>
+    </record>
+</odoo>
