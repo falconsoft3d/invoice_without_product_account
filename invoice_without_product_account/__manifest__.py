@@ -13,8 +13,8 @@
         - Agrega campos de cuenta contable de Ingresos y Gastos en el Partner.
         - Crea proceso automático de carga por defecto al colocar una descripción en la linea de la factura.
     """,
-    'author': "Falcón Solutions",
-    'maintainer': 'Falcon Solutions',
+    'author': "Falcon Solutions SpA",
+    'maintainer': 'Falcon Solutions SpA',
     'website': 'http://www.falconsolutions.cl',
     'license': 'AGPL-3',
     'category': 'Account',
